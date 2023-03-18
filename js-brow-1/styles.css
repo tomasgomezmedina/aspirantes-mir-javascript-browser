@@ -1,0 +1,19 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #80dbd0;
+}
+input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+button{
+    padding: 6px;
+    border-radius: 5px;
+    border: outset;
+}
+button:hover{
+    background: #c5ff82;
+    cursor: pointer;
+}
