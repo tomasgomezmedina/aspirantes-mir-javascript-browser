@@ -4,11 +4,16 @@ let resultato = document.querySelector("#resultado");
 
 let btn = document.getElementsByClassName("btn")[0];
 
-let resultatoMayusculas = document.getElementById("resultadoMayusculas");
+let resultadoMayusculas = document.getElementById("resultadoMayusculas");
+
+input.addEventListener("input", function () {
+    const texto = input.value.toUpperCase();
+    resultado.textContent = texto;
+});
 
 btn.addEventListener("click", function () {
     const texto = getTexto();
-    resultatoMayusculas.textContent = texto;
+    resultadoMayusculas.textContent = texto;
 });
 
 function getTexto() {

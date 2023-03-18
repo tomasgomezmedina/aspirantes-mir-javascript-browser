@@ -1,6 +1,7 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: #80dbd0;
+    background: #5896a4;
+    color: aliceblue;
 }
 input{
     padding: 5px;
